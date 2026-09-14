@@ -23,3 +23,6 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+# Local documentation & reference guides
+/docs/

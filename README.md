@@ -392,8 +392,6 @@ Calling `compact()` aggregates all segments on disk, combines postings for share
 mini-elasticsearch/
 ├── Cargo.toml                # Project manifests & dependencies
 ├── config.toml               # Engine and server runtime settings
-├── docs/
-│   └── mini_elasticsearch_rust.md # Detailed engineering guide & phases
 ├── benches/
 │   └── search_bench.rs       # Criterion benchmark harness
 ├── src/

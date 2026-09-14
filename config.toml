@@ -1,0 +1,13 @@
+[server]
+host = "0.0.0.0"
+port = 3000
+
+[index]
+data_dir = "data"
+flush_threshold = 1000
+merge_max_segments = 10
+default_result_limit = 10
+
+[scoring]
+bm25_k1 = 1.2
+bm25_b = 0.75
